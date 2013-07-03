@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+	<LinearLayout android:id="@+id/SpiritList"
+		android:orientation="vertical" android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<CheckBox android:id="@+id/vodka_checkbox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Vodka" />
+		<CheckBox android:id="@+id/gin_checkbox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Gin" />
+		<CheckBox android:id="@+id/whiskey_checkbox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Whiskey" />
+		<CheckBox android:id="@+id/rum_checkbox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Rum" />
+		<CheckBox android:id="@+id/tequila_checkbox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Tequila" />
+		<CheckBox android:id="@+id/brandy_checkbox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Brandy" />
+		<CheckBox android:id="@+id/pisco_checkbox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Pisco" />
+		<CheckBox android:id="@+id/liqueur_checkbox"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Liqueur (other)" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/FilterButtons"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@id/SpiritList">
+		<Button android:id="@+id/ok" android:text="OK"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent" 
+            android:layout_weight="1"/>
+		<Button android:id="@+id/cancel" android:text="Cancel"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent" 
+            android:layout_weight="1"/>
+	</LinearLayout>
+</RelativeLayout>
