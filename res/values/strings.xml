@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BarKeeper!</string>
+    <string name="app_name">BarKeeper</string>
+    <string name="no_drinks">No Drinks! What a shame!</string>
+    <string name="drink_name">Drink:</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="directions">Directions:</string>
+    <string name="my_cabinet">My Cabinet</string>
+    <string name="spirit_filter">Filter By Base Spirit</string>
+    <string name="random_drink">Random Drink</string>
+    <string name="drink_creator">Enter a Drink</string>
+</resources>
